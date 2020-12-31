@@ -1,2 +1,2 @@
-# codeigniter_on_dokcer
+# codeigniter_on_docker
 dev enviroment for codeigniter
