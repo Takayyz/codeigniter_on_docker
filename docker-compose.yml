@@ -16,6 +16,7 @@ services:
     working_dir: /var/www
     volumes:
       - ./src:/var/www/
+      - ./php/php.ini:/usr/local/etc/php/php.ini
 
   db:
     image: mysql:5.7
