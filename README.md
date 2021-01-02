@@ -10,6 +10,30 @@ develop enviroment for codeigniter
 
 <br>
 
+## Xdebug + VSCode configuration
+xdebugの`remote_port`は`9010`を指定しています。  
+そのためVSCodeの`launch.json`を以下のように設定にします。
+### Example
+```json
+// launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for XDebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9012,
+      "pathMappings": {
+        "/var/www": "${workspaceFolder}/src"
+      }
+    }
+  ]
+}
+```
+
+<br>
+
 ## Notes
 - migrationについて  
   CodeIgniterではマイグレーション機能は存在しますが、マイグレーションファイルは**手動で作成**する必要があります。  
