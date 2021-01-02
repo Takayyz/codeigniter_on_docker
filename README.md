@@ -19,6 +19,10 @@ develop enviroment for codeigniter
   20210101000000_create_users_table.php
   ```  
   また、マイグレーションファイルは`application/database/migrations`配下に作成してください。
+  - マイグレートの実行はappコンテナ内のDocumentrootディレクトリで下記コマンドを実行
+  ```sh
+  $ php index.php migrate
+  ```
 
 <br>
 
