@@ -23,7 +23,7 @@ xdebugの`remote_port`は`9010`を指定しています。
       "name": "Listen for XDebug",
       "type": "php",
       "request": "launch",
-      "port": 9012,
+      "port": 9010,
       "pathMappings": {
         "/var/www": "${workspaceFolder}/src"
       }
