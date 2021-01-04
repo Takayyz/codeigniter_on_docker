@@ -48,6 +48,11 @@ xdebugの`remote_port`は`9010`を指定しています。
   $ php index.php migrate
   ```
 
+- profilerを表示するには、表示させたいメソッド内に以下を追記  
+  ```php
+  $this->output->enable_profiler(TRUE);
+  ```
+
 <br>
 
 ## TODO
